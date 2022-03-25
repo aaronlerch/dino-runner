@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+require_relative 'game'
+
+game = Game.new 1000, 300
+game.caption = "Dino Run"
+game.show
